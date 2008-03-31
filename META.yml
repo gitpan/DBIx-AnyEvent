@@ -1,0 +1,24 @@
+--- 
+abstract: AnyEvent wrapped DBI
+author: 
+  - Anders Nor Berle <berle@cpan.org>
+build_requires: 
+  Test::Exception: 0.27
+  Test::More: 0.72
+distribution_type: module
+generated_by: Module::Install version 0.68
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: DBIx-AnyEvent
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  AnyEvent: 2.9
+  AnyEvent::Semaphore: 0.00
+  DBD::Pg: 2.5.0
+  DBI: 1.604
+version: 0.00_05
